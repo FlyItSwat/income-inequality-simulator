@@ -7,7 +7,7 @@ import streamlit as st
 from economics import decile_summary, gini, lorenz, simulate
 
 st.set_page_config(page_title='Income Inequality Simulator', page_icon='⚖️', layout='wide')
-st.title('⚖️ Income Inequality & Tax Redistribution Simulator')
+st.title('Income Inequality & Tax Redistribution Simulator')
 st.caption('Explore stylized household income distributions, marginal taxes and universal cash transfers.')
 
 @st.cache_data
